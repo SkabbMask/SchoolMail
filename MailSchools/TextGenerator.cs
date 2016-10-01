@@ -1,14 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MailSchools
+﻿namespace MailSchools
 {
     public class TextGenerator
     {
-        private TextDatabase db;
+        private TextDatabase textDb;
+        private SchoolDatabase schoolDb;
 
+        public TextGenerator()
+        {
+        }
+
+        public string GetText(ActivityType type)
+        {
+            string text = string.Empty;
+
+            return text;
+        }
     }
 }

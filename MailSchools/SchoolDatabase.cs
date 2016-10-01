@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MailSchools
+﻿namespace MailSchools
 {
     public class SchoolDatabase
     {
+        public SchoolDatabase()
+        {
+        }
         public void GetSchoolsByCity(string city)
         {
 

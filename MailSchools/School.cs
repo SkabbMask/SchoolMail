@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MailSchools
+﻿namespace MailSchools
 {
     public class School
     {
@@ -13,6 +7,8 @@ namespace MailSchools
         public string City { get; set; }
         public string County { get; set; }
         public SchoolType Type { get; set; }
-
+        public School()
+        {
+        }
     }
 }

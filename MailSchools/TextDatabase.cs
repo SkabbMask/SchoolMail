@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MailSchools
+﻿namespace MailSchools
 {
     public class TextDatabase
     {
-        public void GetTextByActivity(ActivityType type)
+        public TextDatabase()
         {
+        }
+        public string GetTextByActivity(ActivityType type)
+        {
+            string text = string.Empty;
 
+            return text;
         }
     }
 }

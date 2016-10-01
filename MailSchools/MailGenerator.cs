@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MailSchools
+﻿namespace MailSchools
 {
-    public static class MailGenerator
+    public class MailGenerator
     {
-        public static void InitializeMail(string textBody, string mailTo, string mailFrom)
+        public MailGenerator()
         {
-
+        }
+        public void InitializeMail(string textBody, string mailTo, string mailFrom)
+        {
         }
     }
 }

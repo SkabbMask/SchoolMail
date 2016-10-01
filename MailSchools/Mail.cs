@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MailSchools
+﻿namespace MailSchools
 {
     public class Mail
     {
@@ -12,5 +6,8 @@ namespace MailSchools
         public string MailTo { get; set; }
         public string MailBody { get; set; }
 
+        public Mail()
+        {
+        }
     }
 }

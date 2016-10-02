@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="ActivityType.cs" />
     <Compile Include="SchoolDatabase.cs" />
+    <Compile Include="SchoolRow.cs" />
     <Compile Include="TextGenerator.cs" />
     <Compile Include="Mail.cs" />
     <Compile Include="MailGenerator.cs" />
